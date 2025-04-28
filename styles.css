@@ -1,0 +1,98 @@
+html,
+body {
+  font-family: "Open Sans";
+  margin: 0px;
+}
+a {
+  color: inherit;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+header h1 {
+  font-family: "Oswald";
+  font-size: 21px;
+  font-weight: 400;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+#navbar {
+  display: flex;
+  gap: 1rem;
+}
+#navbar li {
+  list-style-type: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#navbar li a.selected {
+  background-color: black;
+  color: white;
+}
+
+main {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+main h1 {
+  font-family: "Oswald";
+  font-size: 64px;
+  font-weight: 400;
+  border-bottom: 1rem solid rgb(243, 79, 76);
+  margin-right: 10rem;
+}
+
+main img {
+  width: 100%;
+}
+
+#columns {
+  display: flex;
+}
+
+#column-1 {
+  width: 60%;
+}
+
+figcaption {
+  color: rgb(243, 79, 76);
+  font-size: 24px;
+  text-align: center;
+}
+
+#email {
+  font-size: 17px;
+  text-align: center;
+}
+
+#column-2 {
+  font-size: 17.3px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: inherit;
+}
+
+main ul {
+  list-style-type: square;
+}
+
+main li {
+  margin-top: 0.5rem;
+}
+
+footer {
+  background-color: rgb(243, 79, 76);
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 12rem;
+  line-height: 2rem;
+}

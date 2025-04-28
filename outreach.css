@@ -1,0 +1,22 @@
+dt {
+  font-size: 35px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+dd {
+  margin-left: 0;
+}
+
+@media (max-width: 1000px) {
+  dt {
+    font-size: 4rem;
+  }
+  dd {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+}

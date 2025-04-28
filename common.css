@@ -1,0 +1,140 @@
+html,
+body {
+  font-family: "Open Sans";
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1rem;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+#left-header {
+  display: flex;
+}
+
+#hamburger-menu-icon {
+  width: 7rem;
+  background-color: lightgray;
+}
+
+header h1 {
+  font-family: "Oswald";
+  font-weight: 400;
+  padding-left: 24px;
+  padding-right: 12px;
+  font-size: 35px;
+}
+
+#navbar {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+#navbar li {
+  list-style-type: none;
+}
+
+#navbar li a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navbar li.selected a {
+  background-color: black;
+  color: white;
+}
+
+#mobile-navbar {
+  position: fixed;
+  left: 0;
+  top: 135px;
+  background-color: lightgray;
+  margin-top: 0;
+  border-radius: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#mobile-navbar.hidden {
+  display: none;
+}
+
+#mobile-navbar li {
+  padding-right: 1rem;
+}
+
+#mobile-navbar li a {
+  text-decoration: none;
+}
+
+#mobile-navbar li.selected a {
+  background-color: black;
+  color: white;
+}
+
+#mobile-navbar li {
+  list-style-type: none;
+  font-size: 2.5rem;
+}
+
+main {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 6rem;
+}
+
+main h1 {
+  font-family: "Oswald";
+  font-size: 64px;
+  font-weight: 400;
+  border-bottom: 1rem solid rgb(243, 79, 76);
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+footer {
+  font-family: "Oswald";
+  color: black;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  line-height: 2rem;
+  padding-left: 6rem;
+}
+
+@media (min-width: 1000px) {
+  #hamburger-menu-icon {
+    display: none;
+  }
+  #mobile-navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  main h1 {
+    font-size: 6rem;
+  }
+  footer {
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+  #navbar {
+    display: none;
+  }
+}
